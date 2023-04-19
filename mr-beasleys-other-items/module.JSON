@@ -1,0 +1,50 @@
+{
+  "id": "mr-beasleys-other-items",
+  "title": "Mr. Beasley's Magic Items",
+  "description": "<p>A compendium of unique magical items for D&D 5e.</p> <p>For more information, visit <a href=\"patreon.com/themrbeasley\">my Patreon page</a> or my <a href=\"jordanbeasley.com\">website</a></p>",
+  "authors": [
+    {
+      "name": "Mr. Beasley",
+      "url": "https://www.patreon.com/themrbeasley",
+      "discord": "gamemasterbeas#3690",
+      "flags": {}
+    }
+  ],
+  "url": "https://www.patreon.com/themrbeasley",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "8",
+    "verified": "10.291"
+  },
+  "packs": [
+    {
+      "type": "Item",
+      "label": "Mr. Beasley's Magic Items",
+      "name": "mr-beasleys-other-items",
+      "path": "packs/mr-beasleys-other-items.db",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+      "compatibility": {
+        "verified": "2.1.5"
+      }
+    }],
+    "requires": [{
+      "id": "compendium-folders",
+      "type": "module",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.jso",
+      "compatibility": {
+        "verified": "2.5.4"
+      }
+    }]
+  },
+  "manifest": "https://www.dropbox.com/s/lamjki09yfb4cbu/module.JSON?dl=1",
+  "download": "https://www.dropbox.com/s/su0ho8f412oqo21/mr-beasleys-magic-items.zip?dl=1"
+}
