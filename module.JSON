@@ -39,12 +39,12 @@
     "requires": [{
       "id": "compendium-folders",
       "type": "module",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.jso",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
       "compatibility": {
         "verified": "2.5.4"
       }
     }]
   },
-  "manifest": "https://www.dropbox.com/s/lamjki09yfb4cbu/module.JSON?dl=1",
-  "download": "https://www.dropbox.com/s/su0ho8f412oqo21/mr-beasleys-magic-items.zip?dl=1"
+  "manifest": "https://raw.githubusercontent.com/themrbeasley/mr-beasleys-other-items/main/module.json",
+  "download": "https://github.com/themrbeasley/mr-beasleys-other-items/blob/main/mr-beasleys-other-items.zip?raw=true"
 }
